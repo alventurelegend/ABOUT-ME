@@ -73,3 +73,34 @@ section footer p {
   text-align: center;
   font-size: 0.7em;
 }
+
+@media screen and (max-width: 1200px) {
+    main {
+      flex-flow: column nowrap;
+    }
+    main aside {
+      align-self: center;
+    }
+  }
+  
+  
+  /* UNTUK MENGATUR YANG MEMILKI LAYAR 1000PX */
+  @media screen and (max-width: 1000px) {
+    #content, aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  /* UNTUK MEDIA DENGAN UKURAN MAX 768PX SEPERTI HP */
+  @media screen and (max-width: 768px) {
+    nav ul{
+      justify-content: center;
+    }
+
+    main aside {
+      align-self: stretch;
+    }
+  }
+   
